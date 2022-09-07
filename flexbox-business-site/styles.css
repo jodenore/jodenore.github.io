@@ -155,6 +155,7 @@ body {
   color: var(--clr-primary-300);
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 img {
