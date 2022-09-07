@@ -165,10 +165,6 @@ img {
 
 /* line-height: 1.6; */
 
-/* section{
- padding-block: min(40vh, 8rem)
-} */
-
 /* Header */
 .primary-header {
   width: 100%;
@@ -259,12 +255,12 @@ img {
 
 /** Main Content **/
 .main-section {
-  width: 100%;
+  max-width: 100% !important;
   position: absolute;
 }
 
 section {
-  padding-block: min(30vh, 4rem);
+  padding-block: min(30vh, 3rem);
 }
 
 .main-title {
@@ -299,7 +295,7 @@ section {
   font-size: var(--font-size-base);
   font-family: var(--ff-primary);
   font-weight: 800;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.2rem;
   text-align: center;
 }
 .blue {
@@ -434,7 +430,7 @@ section {
 
 .staff-fig {
   width: 100%;
-  padding: 1.8rem;
+  /* padding: 1.8rem; */
   object-fit: cover;
 }
 
@@ -458,7 +454,7 @@ section {
   font-family: var(--ff-primary);
   font-style: normal;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 60em) {
@@ -522,7 +518,7 @@ section {
 .flex-item {
   max-width: 70%;
   height: auto;
-  padding: 1.3rem;
+  /* padding: 1.3rem; */
 }
 
 .player-caption {
@@ -589,7 +585,7 @@ section {
 }
 
 .mini-section {
-  padding-block: min(1rem, 30vh);
+  padding-block: min(30vh, 1rem);
   width: 100%;
   height: auto;
 
@@ -620,7 +616,7 @@ section {
 }
 .about-us-text p {
   font-family: var(--ff-secondary);
-  padding-right: 1rem;
+  line-height: 1.6;
   margin-bottom: 2rem;
   font-size: var(--font-size-base);
   font-weight: 500;
@@ -684,7 +680,7 @@ section {
 /* Contact Footer */
 
 .footer-section {
-  padding-block: 2rem;
+  padding-block: 0.3rem;
   background-color: var(--clr-primary-300);
   text-align: center;
 }
